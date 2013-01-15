@@ -1,0 +1,69 @@
+body {
+    font-size: 1em;
+    background: #eceef1;
+}
+
+.container {
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+
+ol {
+    counter-reset: li;
+    font-family: "Helvetica Neue",Helvetica,Arial,Sans-Serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-type: decimal;
+}
+
+ol li {
+    padding: 15px 0 15px 70px;
+    color: #c3c9d2;
+    font: bold 16px/20px "Helvetica Neue",Helvetica,Arial,Sans-Serif;
+    list-style: none;
+    position: relative;
+    border-bottom: 1px solid #eceef1;    
+}
+
+ol li::before {
+    content: counter(li) ".";
+    counter-increment: li;
+    position: absolute;
+    top: 15px;
+    left: 27px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ol li h1 {
+    cursor: auto;
+    font: bold 16px/20px "Helvetica Neue",Helvetica,Arial,Sans-Serif;
+    margin: 0;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+ol li a {
+    color: #2d72d9;
+    text-decoration: none;
+}
+
+ol li a:visited {
+    color: #96b7e9;
+}
+
+div.section {
+    color: #c3c9d2;
+    font: normal 16px "Helvetica Neue",Helvetica,Arial,Sans-Serif;
+    display: inline-block;
+    white-space: nowrap;    
+}
+
+div.date {
+    color: #c3c9d2;
+    font: normal 12px "Helvetica Neue",Helvetica,Arial,Sans-Serif;    
+}
