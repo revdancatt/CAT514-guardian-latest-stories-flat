@@ -6,7 +6,7 @@ control = {
     storyKeyLong: [],   //  longer list to track recent stories
     storyDictLong: {},  //  to stop flip-flopping as latest stories shuffle around
 
-    rejectThese: '-eyewitness-subscriber',    //  a list of sections to reject because
+    rejectThese: '-better-business,-government-computing-network,-social-enterprise-network,-travel/offers,-guardian-professional,-public-leaders-network,-healthcare-network,-teacher-network,-social-care-network,-higher-education-network,-global-development-professionals-network,-housing-network,-culture-professionals-network,-voluntary-sector-network,-small-business-network,-eyewitness-subscriber',    //  a list of sections to reject because
                         //  they're not really "news"
 
     initialFetch: true, //  We need to display things differently when we get the

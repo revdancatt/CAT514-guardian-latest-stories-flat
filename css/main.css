@@ -1,6 +1,8 @@
-body {
+body, html {
     font-size: 1em;
     background: #eceef1;
+    margin: 0;
+    border: 0;
 }
 
 .container {
@@ -10,9 +12,33 @@ body {
     background: white;
 }
 
+.header {
+    border-bottom: 1em solid #eceef1;
+}
+
+.header h1 {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 0;
+}
+
+.header p {
+    margin: 12px;
+    margin-top: 0;
+}
+
+.footer {
+    border-top: 1em solid #eceef1;
+}
+
+.footer p {
+    margin: 12px;
+    margin-bottom: 0;
+    padding-bottom: 12px;
+}
+
 ol {
     counter-reset: li;
-    font-family: "Helvetica Neue",Helvetica,Arial,Sans-Serif;
     margin: 0;
     padding: 0;
     display: block;
@@ -21,8 +47,9 @@ ol {
 
 ol li {
     padding: 15px 0 15px 70px;
-    color: #c3c9d2;
-    font: bold 16px/20px "Helvetica Neue",Helvetica,Arial,Sans-Serif;
+    color: #CCC;
+    font-weight: bold;
+    font-size: 1em;
     list-style: none;
     position: relative;
     border-bottom: 1px solid #eceef1;    
@@ -41,29 +68,30 @@ ol li::before {
 
 ol li h1 {
     cursor: auto;
-    font: bold 16px/20px "Helvetica Neue",Helvetica,Arial,Sans-Serif;
+    font-weight: bold;
+    font-size: 1.2em;
     margin: 0;
     display: inline-block;
     margin-right: 12px;
 }
 
 ol li a {
-    color: #2d72d9;
+    color: #004A83;
     text-decoration: none;
 }
 
 ol li a:visited {
-    color: #96b7e9;
+    color: #99BCDB;
 }
 
 div.section {
-    color: #c3c9d2;
-    font: normal 16px "Helvetica Neue",Helvetica,Arial,Sans-Serif;
+    color: #CCC;
+    font: normal 1em Helvetica,Arial,Sans-Serif;
     display: inline-block;
     white-space: nowrap;    
 }
 
 div.date {
-    color: #c3c9d2;
-    font: normal 12px "Helvetica Neue",Helvetica,Arial,Sans-Serif;    
+    color: #CCC;
+    font: normal 0.8em Helvetica,Arial,Sans-Serif;    
 }
