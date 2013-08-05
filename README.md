@@ -1,7 +1,7 @@
 ![Screen Shot](http://cattopus23.com/img/panel-CAT514.png)
 
-Guardian Latest Stories Flat
-============================
+CAT514 Guardian Latest Stories Flat
+===================================
 
 Flat look for the latest 20 Guardian stories
 
